@@ -1,3 +1,7 @@
+# Files
+File 1: branch and bound: runs different branch and bound strategies
+File 2: brute foce: runs brute force approach to fractional knapsack
+
 # About The Strategies
 Several Branch and Bound Techniques for the 01 Knapsack Problem
 
