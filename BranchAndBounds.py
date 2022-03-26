@@ -1,15 +1,3 @@
-items = Items()
-
-# capacity of knapsack
-capacity = 19
-
-# example item set
-items.addItem(3,21)
-items.addItem(6,30)
-items.addItem(5,15)
-items.addItem(10,20)
-items.addItem(8,8)
-
 # hold item information
 class Item:
   def __init__(self, id, weight, profit):
@@ -71,6 +59,18 @@ class Items:
 
     # add item to list
     self.items.append(item)
+
+items = Items()
+
+# CHANGE ME! capacity of knapsack
+capacity = 19
+
+# CHANGE ME! example item set
+items.addItem(3,21)
+items.addItem(6,30)
+items.addItem(5,15)
+items.addItem(10,20)
+items.addItem(8,8)
 	
 # get all undecided items
 def getStrategy1Bounds(items, startIndex):
